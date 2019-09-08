@@ -273,6 +273,13 @@ export const FONTS: IFont[] = [
     category: FontCategory.REGULAR,
     filename: '3a40308bd4fedb785b2d57a21451b722.ttf',
     path: './assets/fonts/'
+  },
+  {
+    id: '26000',
+    label: 'Exo 2',
+    category: FontCategory.REGULAR,
+    filename: '821b60800ddc23b627b093e31c1c92a70be62e1d.ttf',
+    path: './assets/fonts/'
   }
   // ,{
   //   id: '30000',
