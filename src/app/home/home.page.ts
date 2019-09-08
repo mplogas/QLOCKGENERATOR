@@ -24,7 +24,7 @@ import { DEFAULT_ALARM_SYMBOL_NONE, DEFAULT_ALARM_SYMBOL, DEFAULT_FONT, DEFAULT_
   styleUrls: ['home.page.scss']
 })
 export class HomePage implements AfterViewInit {
-  @ViewChild('drawing') drawing: ElementRef;
+  @ViewChild('drawing', { static: true }) drawing: ElementRef;
 
   // Default settings
   generalFrontVariant: IVariant = DEFAULT_VARIANT;
