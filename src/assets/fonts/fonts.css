@@ -278,6 +278,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Exo 2.0";
+    src: url(/assets/fonts/821b60800ddc23b627b093e31c1c92a70be62e1d.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* @font-face {
     font-family: "MyOwnFont";
     src: url(/assets/fonts/MyOwnFont.ttf) format("truetype");
