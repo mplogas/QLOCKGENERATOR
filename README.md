@@ -12,6 +12,13 @@
 
 Generate your own front for your selfmade word clock.
 
+## How to run (as of Dec' 2024):
+1. cd into cloned directory
+2. Update source path in `docker-compose.yaml`
+3. run `docker compose up`
+4. open in browser http://localhost:8100
+5. DO NOT EXPOSE THIS TO ANYTHING ELSE THAN LOCALHOST! It uses 5-year old libraries!  
+
 ## Featues
 
 - **Variants** - Many pre-configured fronts for the appropriate DIY kits
